@@ -25,5 +25,4 @@ def index():
         return render_template('index.html', input_text=user_input, prediction=result)
     return render_template('index.html', input_text='', prediction='')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
